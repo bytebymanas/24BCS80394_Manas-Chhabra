@@ -5,7 +5,7 @@ abstract class Shape{
     void display()
     {
        
-        System.out.println("This is a shape");
+        System.out.println("This is a  shape");
     }
 }
 class Circle extends Shape {
@@ -23,7 +23,8 @@ class Circle extends Shape {
 
 }
 class Rectangle extends Shape{
-    double length,width;
+    double length ; 
+    double width ; 
 
     Rectangle(double length, double width){
          this.length =length;
